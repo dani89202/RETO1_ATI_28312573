@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+}
+
+.body-centrado {
+    justify-content: center; 
+    align-items: center;     
+    display: flex;
+}
+.foto img {
+    width: 220px;
+    border-top-left-radius: 45px;
+    display: block;
+    height: 100%;
+}
+
+.perfil {
+    max-width: 800px;
+    border: 2px solid #ccc;
+    padding: 20px;
+    background-color: #fff;
+    margin-left: 5px; 
+    box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);;
+}
+
+.nombre {
+    font-size: 28px;
+    color: #6812f3;
+    font-weight: bold;
+}
+
+.descripcion {
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.info-linea {
+    display: flex;
+    align-items: flex-start;
+}
+
+.info-label {
+    width: 300px;
+}
+
+.respuesta {
+    flex: 1;
+}
+
+header {
+    background-color: #C499D6;
+    padding: 10px;
+}
+
+.title {
+    font-size: 24px; 
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.small {
+    font-size: 12px; 
+    color: #ffffff;
+}
+
+.nav-contenedor {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    height: 25px;
+}
+
+.nav-item {
+    flex: 1;
+    text-align: center ;
+    padding: 23px;
+    border-right: 3px solid #ffffff; 
+    height: 120%; 
+    color: #ffffff;
+}
+
+.nav-item:last-child {
+    border-right: none; 
+}
+
+
+.nav-item form {
+    display: flex;
+    gap: 5px; 
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item input[type="text"] {
+    font-family: Century Gothic, sans-serif; 
+    padding: 6px 10px;
+    font-size: 14px;
+    width: 150px; 
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.nav-item button {
+    font-family: Century Gothic, sans-serif; 
+    padding: 6px 15px;
+    font-size: 14px;
+    background-color: #49306B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav-item button:hover {
+    background-color: #8b4487;
+}
+
+
+.lista-estudiantes {
+    list-style: none;
+    padding: 0;
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 30px; 
+    margin: 20px;
+    text-align: center; 
+}
+
+.lista-estudiantes li {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #000000;
+}
+
+.lista-estudiantes img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px; 
+}
+
+footer {
+    text-align: center;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px; 
+    background-color: #C499D6;
+    color: #ffffff;
+}
