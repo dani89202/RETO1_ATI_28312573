@@ -5,73 +5,41 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>ATI[UCV] 2024-1</title>
+    <title>ATI[UCV] 2025-1</title>
 
     <link rel="icon" href="http://www.ciens.ucv.ve/portalasig2/favicon.ico">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
-  <header class="header-index ">
-    <nav>
-        <ul class="nav-contenedor">
-            <li class="nav-item"><span class="title"> ATI <span class="small"> [UCV] </span> 2025-1 </span></li>
-            <li class="nav-item"> Hola, Daniela Carrero </li>
-            <li class="nav-item">
-                <form>
-                    <input type="text" placeholder="Nombre...">
-                    <button type="submit">Buscar</button>
-                </form>
-            </li>
-        </ul>
-    </nav>
-</header>
-<section>
-  <ul class="lista-estudiantes">
-      <li>
-          <img src="CEDULAGrande.jpg" alt="Estudiante 1">
-          <span>Daniela Carrero</span>
-      </li>
-      <li>
-          <img src="dummies/dummy2/dummy.jpg" alt="Estudiante 2">
-          <span> Ana Gómez</span>
-      </li>
-      <li>
-          <img src="dummies/dummy3/dummy.jpg" alt="Estudiante 3">
-          <span>Luisa Fernández</span>
-      </li>
-      <li>
-          <img src="dummies/dummy4/dummy.jpg" alt="Estudiante 4">
-          <span>Carlos Martínez</span>
-      </li>
-      <li>
-          <img src="dummies/dummy5/dummy.jpg" alt="Estudiante 5">
-          <span>Luis Fernández</span>
-      </li>
-      <li>
-          <img src="dummies/dummy6/dummy.jpg" alt="Estudiante 6">
-          <span>Carlos  Herrera</span>
-      </li>
-      <li>
-        <img src="dummies/dummy2/dummy.jpg" alt="Estudiante 7">
-        <span>Valentina Flores</span>
-    </li>
-    <li>
-        <img src="dummies/dummy3/dummy.jpg" alt="Estudiante 8">
-        <span> Luisana Acosta</span>
-    </li>
-    <li>
-        <img src="dummies/dummy1/dummy.jpg" alt="Estudiante 9">
-        <span>Alexandra Ferreira</span>
-    </li>
-    
-  </ul>
-</section>
+    <header class="header-index">
+      <nav>
+          <ul class="nav-contenedor">
+              <li class="nav-item">
+                <span id="titulo-sitio" class="title"></span>
+              </li>
+              <li class="nav-item" id="saludo-usuario"></li>
+              <li class="nav-item">
+                  <form>
+                      <input type="text" id="input-buscar" placeholder="">
+                      <button type="submit" id="btn-buscar"></button>
+                  </form>
+              </li>
+          </ul>
+      </nav>
+  </header>
+  
+  <section>
+    <ul class="lista-estudiantes" id="lista-estudiantes">
+    </ul>
+  </section>
+  
+  <footer>
+      <p id="footer-text"></p>
+  </footer>
 
-    <footer>
-        <p>Copyright © 2024 Escuela de computación - ATI. Todos los derechos reservados</p>
-    </footer>
-</body>
+  <script src="js/index.js"></script>
+  </body>
 </html>
