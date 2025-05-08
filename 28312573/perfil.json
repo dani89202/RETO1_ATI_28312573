@@ -1,0 +1,17 @@
+{
+  "nombre": "Daniela Alexandra Carrero Acosta",
+  "descripcion": "Soy estudiante de la carrera de Computación en la Universidad Central de Venezuela. Actualmente curso el 7mo semestre de la carrera y me apasionan los temas relacionados con el diseño gráfico, la estética visual y cómo se conectan con la tecnología. También disfruto aprender cosas nuevas que combinen creatividad y lógica. Poco a poco voy explorando otras áreas como el desarrollo web y la ilustración digital.",
+  "color": "Morado",
+  "libro": "No tengo libro favorito",
+  "musica": "Pop",
+  "video_juego": ["Evony", "Animal Crossing", "Mario Kart"],
+  "lenguajes": ["C++", "HTML", "CSS", "JavaScript", "Python"],
+  "email": "danielaa.carreroa@gmail.com",
+  "ci": "28312573",  
+  "genero": "Femenino",
+  "fecha_nacimiento": "08/03/2002", 
+  "imagen": "28312573.jpg"
+}
+
+
+  
